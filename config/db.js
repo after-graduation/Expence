@@ -2,7 +2,8 @@ const mongoose = require('mongoose');
 
 const connectDB = async () => {
   try {
-    const conn = await mongoose.connect(process.env.MONGO_URI, {
+    let MONGO_URL='mongodb+srv://Hammad:00000@cluster0.hsvpu.mongodb.net/expenseTracker?retryWrites=true&w=majority'
+    const conn = await mongoose.connect(MONGO_URL, {
       useNewUrlParser: true,
       useCreateIndex: true,
       useUnifiedTopology: true

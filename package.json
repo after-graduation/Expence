@@ -1,5 +1,5 @@
 {
-  "name": "Expence",
+  "name": "Expense",
   "version": "1.0.0",
   "description": "server side for track payment app",
   "main": "server.js",
@@ -26,7 +26,8 @@
     "express": "^4.17.1",
     "mongodb": "^3.6.2",
     "mongoose": "^5.10.5",
-    "morgan": "^1.10.0"
+    "morgan": "^1.10.0",
+    "path": "^0.12.7"
   },
   "devDependencies": {
     "concurrently": "^5.3.0",
